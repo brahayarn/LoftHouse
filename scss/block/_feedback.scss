@@ -1,0 +1,12 @@
+.feedback{
+    margin-bottom: 180px;
+}
+.feedback__title{
+    margin-bottom: 38px;
+}
+.feedback__form-form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // 4 колонки в ряд
+    grid-gap: 30px;
+    align-self: center;
+}
