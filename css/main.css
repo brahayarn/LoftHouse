@@ -156,7 +156,7 @@ a:hover {
 
 .no-scroll {
   overflow-y: hidden;
-}/*# sourceMappingURL=main.css.map */bg.jpg");
+}/*# sourceMappingURL=main.css.map */ 51.04%, #242b33 92.19%), url("./../img/header/header-bg.jpg");
 }
 
 .header__top-row {
@@ -443,4 +443,38 @@ a:hover {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   align-self: center;
+}
+
+.footer {
+  background-color: #2D343C;
+  padding-top: 72px;
+  padding-bottom: 54px;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer__logo {
+  margin-top: -12px;
+}
+
+.footer__nav-list {
+  display: grid;
+  gap: 15px;
+}
+
+.footer__address {
+  display: grid;
+  gap: 20px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 22px;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
