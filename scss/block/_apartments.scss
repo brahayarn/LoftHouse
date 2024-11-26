@@ -1,6 +1,14 @@
-// .appartments{
+.apartments {
+    position: relative;
 
-// }
+    &::before {
+        content: "III";
+        right: calc(50% + 555px);
+        transform: translate(50%, 0%);
+        @include decorNumber;
+    }
+}
+
 .appartments__title{
     margin-bottom: 88px;
 }

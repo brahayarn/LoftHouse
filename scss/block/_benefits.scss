@@ -1,5 +1,13 @@
 .benefits{
+    position: relative;
     padding: 120px 0;
+
+    &::after {
+		content: 'II';
+		left: calc(50% + 555px); // ширина контейнера 1110px, тому 555px
+		transform: translate(-50%, 0%);
+        @include decorNumber;
+	}
 }
 .benefits__row{
     display: flex;
@@ -8,7 +16,7 @@
 .benefits__item{
     text-align: center;
 }
-.benefits__item-icon{
+.benefits__item-img{
     margin-bottom: 53px;
 }
 .benefits__item-text{
